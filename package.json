@@ -1,0 +1,30 @@
+{
+  "name": "netlify-build",
+  "version": "1.0.0",
+  "description": "netlify build",
+  "main": "app.js",
+  "scripts": {
+    "build": "netlify deploy --prod"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mrinmoygit2022/netlify-build.git"
+  },
+  "keywords": [
+    "node",
+    "express",
+    "js"
+  ],
+  "author": "Mrinmoy Roy",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mrinmoygit2022/netlify-build/issues"
+  },
+  "homepage": "https://github.com/mrinmoygit2022/netlify-build#readme",
+  "dependencies": {
+    "express": "^4.19.2",
+    "netlify-cli": "^17.30.0",
+    "netlify-lambda": "^2.0.16",
+    "serverless-http": "^3.2.0"
+  }
+}
