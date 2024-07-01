@@ -1,4 +1,3 @@
-// https://precious-lollipop-5940d5.netlify.app/.netlify/functions/api
 // https://spectacular-gaufre-78847b.netlify.app/.netlify/functions/api
 
 import express from "express";
@@ -70,11 +69,11 @@ router.get('/githubData', (req, res)=>{
 })
 
 router.post('/add', (req, res)=>{
-    res.send('New record added.')
+    res.send('<a href="https://www.youtube.com/watch?v=7fjOw8ApZ1I&t=4357s">New record added.</a>')
 })
 
 router.post('/Update', (req, res)=>{
-    res.send('Update the existing records.')
+    res.send('<h1>Update the existing records.</h1>')
 })
 
 router.post('/Delete', (req, res)=>{
